@@ -1,0 +1,16 @@
+permite o next fazer trativas, otimizacão nas imagens
+
+
+yarn add next-images
+
+
+
+## Documentação site ##
+https://www.npmjs.com/package/next-images
+
+const withImages = require('next-images')
+
+module.exports = withImages({
+  esModule: true, //essa opção é usadao para habilitar import / exports
+})
+

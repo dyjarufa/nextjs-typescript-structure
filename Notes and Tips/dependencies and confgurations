@@ -1,0 +1,26 @@
+yarn add typescript @types/react @types/node -D
+
+/* ao rodar yarn dev, será criado o arquio tsconfig.json
+pq foi detectado que estou usando typescript no projeto */
+
+
+
+yarn add eslint -D
+
+yarn eslint --init
+
+
+yarn add prettier eslint-plugin-prettier eslint-config-prettier -D
+
+yarn add styled-components
+
+## Ao criar editar o arquivo _documents preciso instalar os pacotes de typagens:
+yarn add @types/styled-components
+
+****************************
+SOLUCAO PARA Parsing error**
+Inserir linha no .eslint.json:
+
+ "files": ["*.ts", "*.tsx"],
+****************************
+

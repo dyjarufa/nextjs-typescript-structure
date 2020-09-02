@@ -1,0 +1,21 @@
+
+  render(){
+    return(
+      <Html lang="pt">
+        <Head>
+          <meta charSet="utf-8"/>
+
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"/>
+
+          <link rel="icon" href="https://rocketseat.com.br/favicon.ico"/> //favicon
+        </Head>
+
+        <body> //Preciso ter o nody
+          <Main /> // Dentro do Main que sera renderizado o conteudo da página
+          <NextScript /> //Aqui ficaram os scripts que derão vida para aplicação(React)
+        </body>
+      </Html>
+
+    )
+  }
+}
